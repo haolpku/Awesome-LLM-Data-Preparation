@@ -2,9 +2,9 @@
 
 # Awesome LLM Data Preparation
 
-<!-- TODO: export assets/cover.pdf -> assets/cover.png (e.g. `pdftoppm -png -r 220 assets/cover.pdf assets/cover`) and replace the line below.
-     GitHub Markdown does NOT render PDFs inline. -->
-<!-- ![Cover](assets/cover.png) -->
+<p align="center">
+  <img src="assets/cover.png" alt="Cover — Data Preparation for LLMs" width="92%" />
+</p>
 
 **A curated survey of *Data Preparation for Large Language Models* — from Pre-training to Continual Pre-training to Post-training.**
 
@@ -79,8 +79,10 @@ There are many great papers about LLM training, but far fewer that treat **data 
 
 ## 🗺️ Taxonomy at a glance
 
-<!-- TODO: export assets/structure.pdf -> assets/structure.png and replace the placeholder below. -->
-<!-- <p align="center"><img src="assets/structure.png" width="88%" /></p> -->
+<!-- Taxonomy overview image -->
+<p align="center">
+  <img src="assets/structure.png" alt="Taxonomy of data preparation for LLMs" width="92%" />
+</p>
 
 We organize the field along two axes:
 
