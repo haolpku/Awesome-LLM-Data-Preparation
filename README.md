@@ -11,12 +11,17 @@
 *Turn raw text into training-ready signals: collect → filter → generate → evaluate.*
 
 <p>
+  <a href="https://doi.org/10.1007/s11390-026-5948-8"><img src="https://img.shields.io/badge/DOI-10.1007%2Fs11390--026--5948--8-0070C0?style=for-the-badge&logo=doi&logoColor=white" alt="DOI"></a>
+  <a href="https://link.springer.com/article/10.1007/s11390-026-5948-8"><img src="https://img.shields.io/badge/JCST-2026%2C%2041(1)%3A289--317-4B0082?style=for-the-badge" alt="JCST"></a>
+  <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC--BY--4.0-green?style=for-the-badge" alt="License"></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+</p>
+
+<p>
   <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/stargazers"><img src="https://img.shields.io/github/stars/haolpku/Awesome-LLM-Data-Preparation?style=for-the-badge&logo=github&color=FFD700" alt="Stars"></a>
   <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/network/members"><img src="https://img.shields.io/github/forks/haolpku/Awesome-LLM-Data-Preparation?style=for-the-badge&logo=github&color=8A2BE2" alt="Forks"></a>
   <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/issues"><img src="https://img.shields.io/github/issues/haolpku/Awesome-LLM-Data-Preparation?style=for-the-badge&color=critical" alt="Issues"></a>
   <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/pulls"><img src="https://img.shields.io/github/issues-pr/haolpku/Awesome-LLM-Data-Preparation?style=for-the-badge&color=blueviolet" alt="PRs"></a>
-  <a href="https://github.com/haolpku/Awesome-LLM-Data-Preparation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC--BY--4.0-green?style=for-the-badge" alt="License"></a>
-  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
 </p>
 
 <p>
@@ -43,6 +48,7 @@
 
 <p>
   <a href="./README_zh.md">🇨🇳 中文版 README</a> ·
+  <a href="https://link.springer.com/article/10.1007/s11390-026-5948-8">📄 Paper (Springer)</a> ·
   <a href="./papers/pre-training.md">📘 Pre-training papers</a> ·
   <a href="./papers/continual-pre-training.md">📗 CPT papers</a> ·
   <a href="./papers/post-training.md">📙 Post-training papers</a> ·
@@ -55,9 +61,8 @@
 
 ## 🔥 News
 
-- **2025.10** — v0.1 of this repository released, accompanying the survey *"Data Preparation for Large Language Models"* (JCST, under review).
-- **2025.10** — Paper preprint: _coming soon_. <!-- TODO: replace with arXiv link and add the badge below. -->
-  <!-- [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/XXXX.XXXXX) -->
+- **2026.03** — Paper **published** in *Journal of Computer Science and Technology* (JCST), **Vol. 41, No. 1, pp. 289–317, 2026**. 📖 Read it on [Springer](https://link.springer.com/article/10.1007/s11390-026-5948-8) · DOI: [`10.1007/s11390-026-5948-8`](https://doi.org/10.1007/s11390-026-5948-8).
+- **2025.10** — v0.1 of this repository released as the companion to the survey.
 - We welcome **PRs** of new papers, datasets, and workflows — see [Contributing](#-contributing). ⭐ Star this repo to get updates as the field moves.
 
 ---
@@ -349,18 +354,21 @@ Please be specific about *which data preparation operator/stage* a new paper bel
 If this survey or repository helps your research, please cite:
 
 ```bibtex
-@article{liang2025dataprep,
-  title   = {Data Preparation for Large Language Models},
-  author  = {Liang, Hao and Wong, Zhen Hao and Liu, Ruitong and Wang, Yuhan and
-             Qiang, Meiyi and Zhao, Zhengyang and Shen, Chengyu and He, Conghui and
-             Zhang, Wentao and Cui, Bin},
-  journal = {Journal of Computer Science and Technology (JCST)},
-  year    = {2025},
-  note    = {Survey}
+@article{liang2026dataprep,
+  title     = {Data Preparation for Large Language Models},
+  author    = {Liang, Hao and Wong, Zhen Hao and Liu, Ruitong and Wang, Yuhan and
+               Qiang, Meiyi and Zhao, Zhengyang and Shen, Chengyu and He, Conghui and
+               Zhang, Wentao and Cui, Bin},
+  journal   = {Journal of Computer Science and Technology},
+  volume    = {41},
+  number    = {1},
+  pages     = {289--317},
+  year      = {2026},
+  publisher = {Springer},
+  doi       = {10.1007/s11390-026-5948-8},
+  url       = {https://link.springer.com/article/10.1007/s11390-026-5948-8}
 }
 ```
-
-<!-- TODO: once the arXiv preprint is out, add a second BibTeX entry here with the arXiv id. -->
 
 ---
 
@@ -395,6 +403,6 @@ This repository accompanies the JCST survey. Authors are with **Peking Universit
 
 **If this repository helps you, please consider giving it a ⭐ — that is how we know to keep shipping updates.**
 
-*Last updated: 2025-10. Maintained by the authors of the JCST survey.*
+*Last updated: 2026-04. Maintained by the authors of the JCST survey.*
 
 </div>
