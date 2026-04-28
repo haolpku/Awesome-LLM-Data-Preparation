@@ -1,0 +1,110 @@
+name: "📄 Add a paper"
+description: Suggest a new paper, dataset, or tool to include in the list.
+title: "[Add] <paper short name>"
+labels: ["paper", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve **Awesome LLM Data Preparation**!
+        Please fill in the fields below — most take under a minute.
+        If you prefer, you can open a PR directly; see `CONTRIBUTING.md`.
+  - type: input
+    id: short_name
+    attributes:
+      label: Short name
+      description: Recognizable short name, e.g. "SoftDedup", "FineWeb", "Self-Instruct".
+      placeholder: "FineWeb"
+    validations:
+      required: true
+  - type: input
+    id: full_title
+    attributes:
+      label: Full paper title
+      placeholder: "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale"
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors (first author et al.)
+      placeholder: "Penedo et al."
+    validations:
+      required: true
+  - type: input
+    id: venue_year
+    attributes:
+      label: Venue and year
+      placeholder: "NeurIPS 2024"
+    validations:
+      required: true
+  - type: input
+    id: arxiv
+    attributes:
+      label: arXiv / paper link
+      placeholder: "https://arxiv.org/abs/2406.17557"
+  - type: input
+    id: code
+    attributes:
+      label: Code or dataset link
+      placeholder: "https://huggingface.co/datasets/HuggingFaceFW/fineweb"
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Training stage
+      description: Which stage does this paper primarily address?
+      multiple: true
+      options:
+        - Pre-training (PT)
+        - Continual Pre-training (CPT)
+        - Post-training — SFT
+        - Post-training — RL (verifiable reward)
+        - Post-training — RLHF / RLAIF
+        - Dataset (multi-stage)
+        - Tooling / System
+        - Survey
+    validations:
+      required: true
+  - type: dropdown
+    id: operator
+    attributes:
+      label: Data operation
+      description: Which data operation(s) does this paper contribute to?
+      multiple: true
+      options:
+        - Collection
+        - Parsing
+        - Filtering (safety / PII / toxicity)
+        - Filtering (quality / language / format)
+        - Filtering (bias / fairness)
+        - Deduplication (exact)
+        - Deduplication (fuzzy)
+        - Deduplication (model-based)
+        - Contamination detection
+        - Data generation / augmentation
+        - Evaluation / selection
+        - End-to-end workflow / system
+    validations:
+      required: true
+  - type: textarea
+    id: one_liner
+    attributes:
+      label: One-line contribution
+      description: What does this paper contribute to **data preparation** specifically? (Avoid generic summaries.)
+      placeholder: "SoftDedup reweights samples by redundancy, reducing training cost while improving downstream accuracy."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Optional. Particularly useful numbers, limitations, or context for reviewers.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I verified the links work and point to the canonical source.
+          required: true
+        - label: This paper is not already on the list (I searched `papers/`).
+          required: true

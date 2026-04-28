@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Read the papers index
+    url: https://github.com/haolpku/Awesome-LLM-Data-Preparation/tree/main/papers
+    about: Browse the full paper lists before opening an issue.
+  - name: 💬 Ask a general question
+    url: https://github.com/haolpku/Awesome-LLM-Data-Preparation/discussions
+    about: Use GitHub Discussions for open-ended questions.

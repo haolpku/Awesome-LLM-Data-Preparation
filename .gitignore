@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (in case contributors add scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node / tooling
+node_modules/
+.cache/
+
+# OS
+Thumbs.db

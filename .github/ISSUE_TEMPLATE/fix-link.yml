@@ -1,0 +1,22 @@
+name: "🐛 Fix a link / typo"
+description: Report a broken link, wrong citation, or typo.
+title: "[Fix] <what is wrong>"
+labels: ["fix", "triage"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is the issue?
+      description: File path and the exact line or entry.
+      placeholder: "papers/pre-training.md, entry for 'FineWeb'"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is wrong and what should it say?
+      placeholder: |
+        Current: [[arxiv]](https://arxiv.org/abs/WRONG_ID)
+        Should be: [[arxiv]](https://arxiv.org/abs/2406.17557)
+    validations:
+      required: true
