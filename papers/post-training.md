@@ -153,6 +153,7 @@ RLHF trains a reward model (RM) from human preferences, then optimizes the polic
 - **Pairwise / ranked preferences** — InstructGPT pipeline. [[arXiv]](https://arxiv.org/abs/2203.02155)
 - **Natural-language critiques and revisions** — Jin et al., 2023. Higher data efficiency than pairwise labels. [[arXiv]](https://arxiv.org/abs/2309.14317)
 - **Sources.** Synthetic responses from diverse SFT/RL checkpoints; crowdsourced pairwise annotations with domain-specific guidelines; hybrid (limited human + proxy/heuristic) to reduce cost (Zhang et al., *Vickrey*, 2024).
+- **LongMab-PO** — Duan, Huang, Li et al., ACL 2026. Treats long-context chunks as multi-armed-bandit arms to find informative chunks and sample high-quality, diverse responses, from which preference pairs are built for long-context DPO. [[paper]](https://aclanthology.org/2026.acl-long.161/) [[arXiv]](https://arxiv.org/abs/2508.13993) [[code]](https://github.com/NEUIR/LongMab-PO)
 
 ### Data Filtering
 
