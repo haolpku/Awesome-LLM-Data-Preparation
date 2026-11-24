@@ -320,6 +320,7 @@ CPT sits between base pre-training and fine-tuning. The defining constraint: **i
 - [**MinerU**](https://github.com/opendatalab/MinerU) — PDF → Markdown/JSON with layout & OCR, preserves math/code/tables.
 - [**FED (GPU-accelerated fuzzy dedup)**](https://github.com/NVIDIA/NeMo-Curator) — trillions-of-tokens dedup.
 - [**Trafilatura**](https://github.com/adbar/trafilatura) / [**Boilerpipe**](https://github.com/kohlschutter/boilerpipe) — robust boilerplate removal & extraction.
+- [**Firecrawl**](https://github.com/firecrawl/firecrawl) — crawls and scrapes websites into clean Markdown/JSON for web-corpus collection.
 - [**Presidio**](https://github.com/microsoft/presidio) — PII detection / anonymization.
 
 ---
