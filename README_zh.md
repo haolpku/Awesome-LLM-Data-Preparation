@@ -241,6 +241,7 @@ CPT 的关键矛盾：**注入新知识（领域 / 语言 / 时间）同时不�
 - [**Dolma Toolkit**](https://github.com/allenai/dolma) — Dolma 对应的模块化工具包。
 - [**MinerU**](https://github.com/opendatalab/MinerU) — PDF → Markdown/JSON，保留公式/代码/表格。
 - [**Trafilatura**](https://github.com/adbar/trafilatura) / [**Boilerpipe**](https://github.com/kohlschutter/boilerpipe) — 正文抽取。
+- [**Firecrawl**](https://github.com/firecrawl/firecrawl) — 将网站抓取并转换为干净的 Markdown/JSON，用于网页语料采集。
 - [**Presidio**](https://github.com/microsoft/presidio) — PII 检测与脱敏。
 
 ---
